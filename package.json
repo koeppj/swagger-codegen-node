@@ -1,0 +1,31 @@
+{
+  "name": "swagger-codegen-node",
+  "version": "1.0.0",
+  "description": "Run swagger-codegen as a node command",
+  "main": "./index.js",
+  "bundledDependencies": false,
+  "bin": {
+    "swagger-codegen": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koeppj/swagger-codegen-node.git"
+  },
+  "keywords": [
+    "node",
+    "swagger"
+  ],
+  "author": "John Koepp",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/koeppj/swagger-codegen-node/issues"
+  },
+  "homepage": "https://github.com/koeppj/swagger-codegen-node#readme",
+  "dependencies": {
+    "node-jre": "^0.2.3",
+    "yargs": "^11.0.0"
+  }
+}
